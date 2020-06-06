@@ -1,5 +1,7 @@
 function draw()
     imgui.Begin("Pluck")
+    
+    state.IsWindowHovered = imgui.IsWindowHovered()
 
     local snap = state.GetValue("snap") or 4
 
