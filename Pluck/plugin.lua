@@ -3,7 +3,7 @@ function draw()
     
     state.IsWindowHovered = imgui.IsWindowHovered()
 
-    local snap = state.GetValue("snap") or 4
+    local snap = state.GetValue("snap") or 8
 
     _, snap = imgui.InputInt("Snap", snap)
 
